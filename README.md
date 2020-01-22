@@ -20,6 +20,7 @@ cd ./team_hopper
 
 4. Inside this directory, create a folder called **Resources** and add the **youtube_trending.zip** and **trending_videos_2020.zip** files to this folder.
 
+You can get the data zip files from the shared Google Drive folder (see Project Resources in Trello board for the link).
 
 5. From the project root directory (**team_hopper**), open jupyter notebook.
 
