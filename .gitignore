@@ -2,6 +2,7 @@ config.py
 .ipynb_checkpoints
 *.csv
 *.zip
+Images/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
