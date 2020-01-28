@@ -1,5 +1,9 @@
 # YouTube Trending Video Analysis
 
+## Tasks and Timeline
+
+* Update the status of the tasks on the team [Trello Board](https://trello.com/b/qjMY63WI/whos-doing-what) so we know who is working on what.
+
 ## Getting Started / Project Setup
 
 To set up this repository locally on your computer, perform the following steps:
@@ -46,4 +50,11 @@ To get a Google API key:
   ```
 
 8. Go into the [youtube_trends.ipynb](youtube_trends.ipynb) notebook file and run the cells inside of the section called, **Getting Started and Setup**.
+
+## Merge/Pull Request Checklist
+
+* For the csv files in the **Resources** folder, dont commit the zip files or the extracted csv files
+* Make sure to restart and clear output in jupyter notebook.
+* Code is documented and includes comments.
+* Make sure you are working in your PythonData environment when making changes.
 
