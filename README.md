@@ -9,24 +9,24 @@ Data analysis of YouTube trending videos. Using a public dataset powered by the 
 * [Getting Started / Project Setup](#setup)
 * [Merge / Pull Request Checklist](#pr_checklist)
 * [Jupyter Notebook](#nb)
-* [Images](#images)
 * [Technologies Used](#technologies)
 
-## <a name="background></a> Background
+## <a name="background"></a> Background
 
 YouTube is one of the largest search engines and one of the largest social media platforms. It is used by people all over the US and around the world. People use YouTube for a variety of reasons, such as watching music videos, learning how to do something new, watching sports highlights, or just watching random videos for entertainment. Because of the popularity of YouTube, we decided to dig a little deeper into some of the characteristics that videos (in particular, trending videos) share. After gathering the information, we used that data to uncover some observations into what makes up a trending video and some insights for how a YouTube creator can improve their viewer engagement (likes, comments, dislikes, etc).
 
 ## <a name="team"></a> Team
 
-* The following people worked together over the course of about a couple of weeks to make this project happen:
-  * Phil Stubbs
-  * Katrina Koenders
-  * Ben Smethurst
-  * Jenna Nytes
+The following people worked together over the course of about a couple of weeks to make this project happen:
+
+* Phil Stubbs
+* Katrina Koenders
+* Ben Smethurst
+* Jenna Nytes
 
 ## <a name="data"></a> About the Data
 
-For this project, we used a public kaggle dataset, which is located [here](./https://www.kaggle.com/datasnaek/youtube-new/data). This dataset is powered by the YouTube API. It includes various information about trending videos in the US from 2017 - 2018 and includes video information for several other countries as well. For this project, we primarily looked at the US but did compare the US vs OUS for a couple of the visualizations/research questions. The dataset was in the form of csv files (one for each country). Due to the large size of these csv files, we chose not to store the data files in GitHub. We stored the csv files that we used for this project in a shared Google Drive folder where everyone on the team could access them, pull them down, and unzip them. The data includes a lot of useful information about each video, such as publish time, number of views, number of likes, and the tags associated with each video. To complete this analysis, we merged all the csv files into one pandas dataframe to do the analysis. The data also includes a category_id field. To retrieve the category name, we had to create and hit an endpoint to the YouTube API to get the additional category data. For more information about specific columns and what they mean, refer to the [YouTube API documentation](https://developers.google.com/youtube/v3/docs/videos/list).
+For this project, we used a public kaggle dataset, which is located [here](https://www.kaggle.com/datasnaek/youtube-new/data). This dataset is powered by the YouTube API. It includes various information about trending videos in the US from 2017 - 2018 and includes video information for several other countries as well. For this project, we primarily looked at the US but did compare the US vs OUS for a couple of the visualizations/research questions. The dataset was in the form of csv files (one for each country). Due to the large size of these csv files, we chose not to store the data files in GitHub. We stored the csv files that we used for this project in a shared Google Drive folder where everyone on the team could access them, pull them down, and unzip them. The data includes a lot of useful information about each video, such as publish time, number of views, number of likes, and the tags associated with each video. To complete this analysis, we merged all the csv files into one pandas dataframe to do the analysis. The data also includes a category_id field. To retrieve the category name, we had to create and hit an endpoint to the YouTube API to get the additional category data. For more information about specific columns and what they mean, refer to the [YouTube API documentation](https://developers.google.com/youtube/v3/docs/videos/list).
 
 ## <a name="timeline"></a> Tasks and Timeline
 
